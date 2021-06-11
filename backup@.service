@@ -2,8 +2,8 @@
 Description=Create tarball backups
 
 [Service] 
-ExecStart=/path/to/backup/scripts_%i.sh /path/to/destination/%i
 EnvironmentFile=/path/to/envir/file
+ExecStart=/path/to/backup/scripts_%i.sh
 
 [Install]
 WantedBy=multi-user.target

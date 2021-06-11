@@ -12,4 +12,5 @@ shell-scripts resides
 and `backup_thesis@.timer` for example) and put them somwhere suitable. On 
 Linux this might be `/home/username/.config/systemd/user`
  4. Activate, and optionally enable, the timers (for example: `systemctl start
- backup_bkpname@hourly.timer`, or `systemctl enable --now backup_bkpname@hourly.timer`)
+--user backup_bkpname@hourly.timer`, or `systemctl --user enable --now
+backup_bkpname@hourly.timer`)
