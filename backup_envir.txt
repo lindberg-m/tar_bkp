@@ -1,0 +1,4 @@
+EXEC_PATH="/path/where/these/files/are/located"
+SRC_PATHS="LIST OF PATHS TO BE BACKED UP HERE"
+DST_PATH="/destination/path/of/backups/"
+BKP_NAME="NAME_OF_BACKUP"

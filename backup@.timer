@@ -1,0 +1,11 @@
+[Unit]
+Description=Backup contextendR things
+
+[Timer]
+OnBootSec=15min
+OnCalendar=%i
+RandomizedDelaySec=900
+AccuracySec=1us
+
+[Install]
+WantedBy=timers.target
